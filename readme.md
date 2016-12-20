@@ -20,10 +20,10 @@ Fortran, F90, F2003, etc. The tools developed for wrapping one version of
 Fortran may not understand the features of the other versions.
 
 Contents
---------
+========
 
 Fortran
-+++++++
+-------
 
 Unless otherwise noted these examples assume the use of GNU compilers.  They 
 should work on Windows, Linux, and likely OSX. Testing is primarily on Windows.
@@ -41,12 +41,13 @@ TODO
     Demonstrate wrapping a F77 subroutine.
 
 Useful Links
-------------
+============
 
  - [Using Python as glue](https://docs.scipy.org/doc/numpy/user/c-info.python-as-glue.html)
  - [Interoperable Subroutines and Functions](https://gcc.gnu.org/onlinedocs/gfortran/Interoperable-Subroutines-and-Functions.html)
  - [Setup a MinGW build environment](http://ascend4.org/Setting_up_a_MinGW-w64_build_environment)
-
+ - [Interfacing with External C Code (cython)](http://cython.readthedocs.io/en/latest/src/userguide/external_C_code.html)
+ - [Interfacing with Python (fortran)](http://www.fortran90.org/src/best-practices.html#interfacing-with-python)
 
 [1]: http://stackoverflow.com/a/41192647/673590
 
